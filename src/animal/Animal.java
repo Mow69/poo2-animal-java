@@ -26,6 +26,7 @@ public class Animal extends Species {
         this.diet = diet;
     }
 
+    // dietName
     public String getDietName() {
         return diet.getDietName();
     }
@@ -34,6 +35,7 @@ public class Animal extends Species {
         this.diet.setDietName(dietName);
     }
 
+    // dietQuantity
     public String getDietQuantity() {
         return diet.getDietQuantity();
     }

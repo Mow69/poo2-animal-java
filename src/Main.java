@@ -6,6 +6,7 @@ import diet.Diet;
  */
 public class Main {
     public static void main(String[] args) {
+        // initialization girafe
         Animal girafe = new Animal();
 
         // set animal name
