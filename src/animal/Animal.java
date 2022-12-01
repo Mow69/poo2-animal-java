@@ -2,6 +2,9 @@ package animal;
 import species.Species;
 import diet.Diet;
 
+/**
+ * Animal : classe qui hérite de la classe Species
+ */
 public class Animal extends Species {
     // proprieties
     private String name;

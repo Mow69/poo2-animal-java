@@ -26,11 +26,13 @@ public class Main {
 
         // set new diet with defaut attributes
         girafe.setDiet(new Diet());
+        // output results
         System.out.println("Mon animal a le régime alimentaire par défaut " + girafe.getDietName());
         System.out.println("Mon animal par défaut est un  " + girafe.getDietQuantity());
 
         // override diet with new attributes
         girafe.setDiet(new Diet("*Végétarien*", "*petit mangeur*"));
+        // output results
         System.out.println("Mon animal a le régime alimentaire " + girafe.getDietName());
         System.out.println("Mon animal par est un  " + girafe.getDietQuantity());
 
